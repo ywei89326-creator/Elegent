@@ -1,0 +1,8 @@
+﻿  uic testDetect.ui
+  rcc testDetect.qrc
+  moc testDetect.h
+  testDetect.cpp
+  main.cpp
+  qrc_testDetect.cpp
+  moc_testDetect.cpp
+  0807testDetect.vcxproj -> D:\1yjy\software\c++sourse\0807testDetect\x64\Debug\0807testDetect.exe
