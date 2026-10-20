@@ -1,7 +1,4 @@
-﻿// windows.h 必须放在 testDetect.h **之前**包含。原因有两个:
-//   1) 它默认定义 min/max 宏, 会把 OpenCV 及 std 的 std::min/std::max 打坏 —— NOMINMAX 关掉;
-//   2) TargetDetector.h 里有 `using namespace cv;`, 而 OpenCV 自己也定义了 ACCESS_MASK,
-//      在那之后再解析 winnt.h 的 ACCESS_MASK 就会报"不明确的符号"。
+﻿
 #define NOMINMAX
 #define WIN32_LEAN_AND_MEAN
 #include <windows.h>
